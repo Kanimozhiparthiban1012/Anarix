@@ -4,7 +4,7 @@
 import google.generativeai as genai
 import sqlite3
 
-genai.configure(api_key="AIzaSyB4wx30TgT6HeG8oJpuRDG5ZLdliBbnm3Q")
+genai.configure(api_key="TYPE YOUR API KEY")
 model = genai.GenerativeModel('gemini-2.5-pro')
 
 def get_sql_from_question(question):
